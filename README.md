@@ -1,6 +1,12 @@
 # 8bit_datapath_AES
 This is a hardware implementation of AES (Advanced Encryption Standard)[1] algorithm written in Verilog. Because the datapath is 8-bit wide, the overall design is very compact. The architecture was published in [2]. The SBox is taken from Canright's optimal construction [3]. Please read these two papers for the details of my implementation. 
 
+How to run the code? 
+
+1. Start Modelsim and enter the directory that contains all the implementaion files. 
+2. Type "source tb.tcl" in the command line of Modelsim. 
+3. You should be able to see the waveform now. (You can change the test vectors in aes_tb.v)
+
 Future plans: 
 
 1. Extend the current implementation (AES-128) to AES-256, which I am currently working on.
