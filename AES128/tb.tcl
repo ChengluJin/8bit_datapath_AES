@@ -1,4 +1,5 @@
 quit -sim
+vlib work
 vlog *.v
 vsim aes_tb
 #add wave *
